@@ -1,6 +1,8 @@
 # 2HashLib
 A small C++ library that provides a high-level API to perform hash operations
-It is based on the Openssl hash implementation, yet doesn't rely on the Openssl EVP. 
+
+It is based on the Openssl 1.1.0h hash implementation, yet it doesn't rely on the Openssl EVP.
+
 It currently supports MD5 (for legacy use), SHA1, SHA256, SHA384 and SHA512.
 
 -------------------------------------------------------------------------------------------------
